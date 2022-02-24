@@ -10,3 +10,5 @@ while (cislo == 0) {
   console.log('Zadej číslo odlišné od nuly');
   cislo = prompt('Zadej číslo: ');
 }
+
+console.log(cislo);
