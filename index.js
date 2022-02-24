@@ -3,6 +3,7 @@ import './style.css';
 import './promenne/ukol1.js';
 import './podminky/ukol1.js';
 import './podminky/ukol2.js';
+import './podminky/ukol3.js';
 
 // Write Javascript code!
 const appDiv = document.getElementById('app');
