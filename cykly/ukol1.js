@@ -1,8 +1,12 @@
-/*Čti od uživatele čísla tak dlouho, dokud nezadá 0 a vždy vypiš NAAKUMULOVANÝ součet těchto čísel:
+/*Zadání:
+• Žádej si od uživatele zadávat číslo TAK DLOUHO, dokud ti
+nezadá číslo odlišné od 0.
+• Pokud ti zadá 0, vypiš mu, že musí zadat číslo odlišné od
+0.
+• Po úspěšném zadání čísla, číslo vypiš. */
 
-Vstup: 2 Výstup: 2 Vstup: 4 Výstup: 6 Vstup: 11 Výstup: 17 Vstup: 0 */
-
-let cislo = 0;
-while (cislo == 0)
-  console.log ()
-  cislo = cislo + 
+let cislo = prompt('Zadejte číslo: ');
+while (cislo == 0) {
+  console.log('Zadej číslo odlišné od nuly');
+  cislo = prompt('Zadej číslo: ');
+}
